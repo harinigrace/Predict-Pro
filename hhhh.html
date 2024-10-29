@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry Deviation Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left-frame">
+            <button id="load-button">Load Excel Data</button>
+            <label for="parts-entry">Enter number of parts:</label>
+            <input type="text" id="parts-entry">
+            <label id="result-label"></label>
+            <canvas id="canvas" width="400" height="200"></canvas>
+            <button id="predict-button">Predict Deviation Date</button>
+            <textarea id="deviation-text" rows="15" cols="50"></textarea>
+            <div id="scrollbar"></div>
+        </div>
+        <div id="right-frame"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
